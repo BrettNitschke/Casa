@@ -1,12 +1,12 @@
 <div id="main-alt">
     <div class="col-lg-12">
         <div class="page-title-container">
-            <h2>Post A Listing</h2>
+            <h2>Edit A Listing</h2>
             <p>Rent your apartment, house, or room to SF State students.</p>
         </div>
         <div class="row" id="main-alt" style="background: #f8f8f8;height: auto!important;">
             <div class="post-container">
-                <form  action="<?php echo URL; ?>post/addRentalUnit" method="POST" autocomplete="off" enctype="multipart/form-data" onsubmit="if (document.getElementById('agree').checked) {
+                <form  action="<?php echo URL; ?>manage/editRentalUnit" method="POST" autocomplete="off" enctype="multipart/form-data" onsubmit="if (document.getElementById('agree').checked) {
                             return true;
                         } else {
                             alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy');
